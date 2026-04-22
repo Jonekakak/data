@@ -1,0 +1,55 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "设备监控",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/dashboard/dashboard",
+      "style": {
+        "navigationBarTitleText": "数据仪表盘"
+      }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": {
+        "navigationBarTitleText": "设备详情"
+      }
+	},
+	{
+		"path": "pages/add/add",
+		"style": {
+			"navigationBarTitleText": "添加设备"
+		}
+	}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "设备监控",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png",
+        "text": "设备列表"
+      },
+      {
+        "pagePath": "pages/dashboard/dashboard",
+        "iconPath": "static/chart.png",
+        "selectedIconPath": "static/chart-active.png",
+        "text": "仪表盘"
+      }
+    ]
+  }
+}
